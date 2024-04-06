@@ -39,7 +39,7 @@ body {
 
 .image2 {
   display: block;
-  width: 60%;
+  width: auto;
   height: auto;
   margin: 0 auto 
 }
