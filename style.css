@@ -22,41 +22,43 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: 50%;
 }
 
 .container {
   position: relative;
-  width: auto;
+  width: 50%;
 }
 
 .image {
   display: block;
-  width: auto;
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }
 
 .image2 {
   display: block;
-  width: auto;
+  width: 60%;
   height: auto;
   margin: 0 auto 
 }
 
 .overlay {
   position: absolute;
-  bottom: 0;
+  bottom: 100%;
+  left: 0 auto;
+  right: 0 auto;
   background-color: #008CBA;
   overflow: hidden;
-  width: 100;
+  width: 100%;
   height: auto;
   transition: .5s ease;
 }
 
 .container:hover .overlay {
   bottom: 0;
-  height: auto;
+  height: 100%;
 }
 
 .text {
