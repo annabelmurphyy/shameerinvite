@@ -47,12 +47,12 @@ body {
 .overlay {
   position: absolute;
   bottom: 100%;
-  left: 0 auto;
-  right: 0 auto;
+  left: 0;
+  right: 0;
   background-color: #008CBA;
   overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 0;
   transition: .5s ease;
 }
 
